@@ -1,4 +1,6 @@
-list=[10,20,50,70,140]
+list=input("Enter Numbers:")
+colors=list.split(" ")
+print(colors)
 result=[]
 for i in list:
     if i>100:
