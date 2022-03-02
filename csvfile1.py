@@ -1,7 +1,7 @@
 import csv
-with open('emp.csv',newline='')as csvfile1:
-    data=csv.DictReader(csvfile1)
+with open('emp.csv',newline='')as file1:
+    data=csv.DictReader(file1)
     print("empnoempname")
-    print("--------------")
+    print("------------")
     for i in data:
-        print(i['empno'],i['name'])
+        print(i['empno'],i['empname'])
